@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "mernai-frontend-1k67x0e2j-mms-projects-64194933.vercel.app"
+    "https://mernai-frontend-1k67x0e2j-mms-projects-64194933.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
